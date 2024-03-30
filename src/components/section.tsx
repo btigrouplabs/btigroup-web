@@ -25,7 +25,7 @@ const Section: NextPage = () => {
             <Simplicity
               simplicity="Simplicity"
               ourUserFriendlyInterfaceM="Our user-friendly interface makes managing your cryptocurrencies a breeze"
-              httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+              httpslottiefilescomanimat="/bti-logo-11@2x.png"
             />
             <Simplicity
               simplicity="Security"
@@ -34,7 +34,7 @@ const Section: NextPage = () => {
               propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
               propFlex="unset"
               propMinWidth="unset"
-              httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+              httpslottiefilescomanimat="/bti-logo-11@2x.png"
             />
           </div>
           <div className="self-stretch flex flex-row items-center justify-center gap-[20px] max-w-full mq1650:flex-wrap">
@@ -45,7 +45,7 @@ const Section: NextPage = () => {
               propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
               propFlex="unset"
               propMinWidth="unset"
-              httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+              httpslottiefilescomanimat="/bti-logo-11@2x.png"
             />
             <Simplicity
               simplicity="Privacy"
@@ -54,7 +54,7 @@ const Section: NextPage = () => {
               propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
               propFlex="unset"
               propMinWidth="unset"
-              httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+              httpslottiefilescomanimat="/bti-logo-11@2x.png"
             />
           </div>
         </div>
