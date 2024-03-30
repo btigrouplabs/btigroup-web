@@ -64,13 +64,15 @@ const Wallet: NextPage = () => {
               </Link>
             </div>
           </div>
-          <div className="flex-[0.9515] rounded-9xl  flex flex-row items-center justify-center py-[5px] px-5 box-border min-w-[485px] max-w-full mq900:hidden  mq1650:flex-1">
+          <div className="flex-1 rounded-9xl  flex flex-row items-start justify-start py-[5px] px-5 box-border min-w-[485px] max-w-1/2 mq900:hidden  mq1650:flex-1">
             <Image
-              className="relative object-contain"
+              className="relative"
               loading="lazy"
               alt=""
-              height={window.innerWidth / 2}
-              width={window.innerWidth / 2}
+              width={1748}
+              height={1226}
+              objectFit="cover"
+              style={{ minWidth: "50vw", height: "auto" }}
               src="/D110.4-01.png"
             />
           </div>
