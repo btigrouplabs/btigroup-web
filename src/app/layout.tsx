@@ -3,7 +3,6 @@ import { Inter } from "next/font/google";
 import "./global.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import BTILogoFooter from "@/components/b-t-i-logo-footer";
 
 export const metadata: Metadata = {
   title: "BTI Group",

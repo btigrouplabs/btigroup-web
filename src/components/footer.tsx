@@ -9,12 +9,6 @@ const socialIcons1 = "/social-icons-1.svg";
 
 const Footer: NextPage = () => {
   const router = useRouter();
-  const onPrivacyPolicyContainerClick = () => {
-    router.push("/privacy-policy");
-  };
-  const onTermsContainerClick = () => {
-    router.push("/terms-conditions");
-  };
 
   const onHomeContainerClick = () => {
     router.push("/");
@@ -22,6 +16,13 @@ const Footer: NextPage = () => {
 
   const onWalletContainerClick = () => {
     router.push("/");
+  };
+
+  const onPrivacyPolicyContainerClick = () => {
+    router.push("/privacy-policy");
+  };
+  const onTermsContainerClick = () => {
+    router.push("/terms-conditions");
   };
 
   return (
