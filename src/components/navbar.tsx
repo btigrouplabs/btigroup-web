@@ -13,19 +13,19 @@ const Navbar: NextPage = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const onPrivacyPolicyContainerClick = () => {
-    router.push("/privacy-policy");
-  };
-  const onTermsContainerClick = () => {
-    router.push("/terms-conditions");
-  };
-
   const onHomeContainerClick = () => {
     router.push("/");
   };
 
   const onWalletContainerClick = () => {
-    router.push("/");
+    router.push("/wallet");
+  };
+
+  const onPrivacyPolicyContainerClick = () => {
+    router.push("/privacy-policy");
+  };
+  const onTermsContainerClick = () => {
+    router.push("/terms-conditions");
   };
 
   return (
