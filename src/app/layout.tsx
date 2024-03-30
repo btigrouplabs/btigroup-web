@@ -20,11 +20,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
-        <Footer
-          btiLogo="/bti-logo-1@2x.png"
-          socialIcons="/social-icons.svg"
-          socialIcons1="/social-icons-1.svg"
-        />
+        <Footer />
       </body>
     </html>
   );

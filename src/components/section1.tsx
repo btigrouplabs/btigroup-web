@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 const Section1: NextPage = () => {
   return (
@@ -21,25 +22,31 @@ const Section1: NextPage = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-start justify-start py-0 pr-[286px] pl-0 gap-[43px] mq450:pr-5 mq450:box-border mq900:gap-[21px] mq900:pr-[143px] mq900:box-border">
-            <img
-              className="h-[65px] w-[196px] relative overflow-hidden shrink-0 min-h-[65px]"
+            <Image
+              className="relative overflow-hidden shrink-0 min-h-[65px]"
               loading="lazy"
+              height={65}
+              width={196}
               alt=""
               src="/applestore.svg"
             />
-            <img
+            <Image
               className="h-[65px] w-[221px] relative overflow-hidden shrink-0 min-h-[65px]"
               loading="lazy"
+              height={65}
+              width={221}
               alt=""
               src="/googleplay.svg"
             />
           </div>
         </div>
         <div className="flex-[0.9515] rounded-9xl bg-lightyellow flex flex-row items-center justify-center py-[74px] px-5 box-border min-w-[485px] max-w-full mq900:pt-12 mq900:pb-12 mq900:box-border mq900:min-w-full mq1650:flex-1">
-          <img
-            className="h-[457.7px] w-[229.8px] relative object-contain"
+          <Image
+            className="relative object-contain"
             loading="lazy"
             alt=""
+            height={457.7}
+            width={229.8}
             src="/group-6@2x.png"
           />
         </div>

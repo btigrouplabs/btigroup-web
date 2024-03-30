@@ -1,10 +1,11 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import { useMemo, type CSSProperties } from "react";
 
 export type SimplicityType = {
   simplicity?: string;
   ourUserFriendlyInterfaceM?: string;
-  httpslottiefilescomanimat?: string;
+  httpslottiefilescomanimat: string;
 
   /** Style props */
   propWidth?: CSSProperties["width"];
@@ -37,8 +38,10 @@ const Simplicity: NextPage<SimplicityType> = ({
       style={simplicityStyle}
     >
       <div className="h-56 flex flex-row items-center justify-start">
-        <img
-          className="h-56 w-56 relative object-cover"
+        <Image
+          className="relative object-cover"
+          width={56}
+          height={56}
           loading="lazy"
           alt=""
           src={httpslottiefilescomanimat}
