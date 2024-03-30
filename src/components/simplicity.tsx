@@ -37,18 +37,19 @@ const Simplicity: NextPage<SimplicityType> = ({
       className="w-[644px] rounded-14xl [background:linear-gradient(-49.92deg,_#f4f4f7,_rgba(244,_244,_247,_0))] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border flex flex-col items-center justify-start py-[13px] px-[19px] max-w-full text-center text-19xl text-black font-roboto-slab border-[1px] border-solid border-bbb"
       style={simplicityStyle}
     >
-      <div className="h-56 flex flex-row items-center justify-start">
+      <div className="flex flex-row items-center justify-start">
         <Image
-          className="relative object-cover"
-          width={56}
-          height={56}
+          className="relative object-cover w-full h-full"
+          width={800}
+          height={450}
           loading="lazy"
           alt=""
           src={httpslottiefilescomanimat}
+          quality={10}
         />
       </div>
-      <div className="self-stretch flex flex-col items-center justify-start">
-        <h3 className="m-0 self-stretch relative text-inherit leading-[43px] font-normal font-inherit mq450:text-4xl mq450:leading-[26px] mq900:text-11xl mq900:leading-[34px]">
+      <div className="self-stretch flex flex-col items-center justify-start [background:transparent]">
+        <h3 className="m-0 self-stretch relative text-inherit leading-[43px] font-normal font-inherit mq450:text-4xl mq450:leading-[26px] mq900:text-11xl mq900:leading-[34px] [background:transparent]">
           {simplicity}
         </h3>
         <div className="self-stretch relative text-lg leading-[19px] text-gray-300">
