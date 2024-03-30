@@ -64,14 +64,16 @@ const Wallet: NextPage = () => {
               </Link>
             </div>
           </div>
-          <div className="flex-[0.9515] rounded-9xl bg-lightyellow flex flex-row items-center justify-center py-[74px] px-5 box-border min-w-[485px] max-w-full mq900:pt-12 mq900:pb-12 mq900:box-border mq900:min-w-full mq1650:flex-1">
+          <div className="flex-1 rounded-9xl  flex flex-row items-start justify-start py-[5px] px-5 box-border min-w-[485px] max-w-1/2 mq900:hidden  mq1650:flex-1">
             <Image
-              className="relative object-contain"
+              className="relative"
               loading="lazy"
               alt=""
-              height={457.7}
-              width={229.8}
-              src="/group-6@2x.png"
+              width={1748}
+              height={1226}
+              objectFit="cover"
+              style={{ minWidth: "50vw", height: "auto" }}
+              src="/D110.4-01.png"
             />
           </div>
         </div>
@@ -92,7 +94,7 @@ const Wallet: NextPage = () => {
                 <Simplicity
                   simplicity="Simplicity"
                   ourUserFriendlyInterfaceM="Our user-friendly interface makes managing your cryptocurrencies a breeze"
-                  httpslottiefilescomanimat="/bti-logo-11@2x.png"
+                  httpslottiefilescomanimat="/D111_Simplicity.png"
                 />
                 <Simplicity
                   simplicity="Security"
@@ -101,7 +103,7 @@ const Wallet: NextPage = () => {
                   propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
                   propFlex="unset"
                   propMinWidth="unset"
-                  httpslottiefilescomanimat="/bti-logo-11@2x.png"
+                  httpslottiefilescomanimat="/D111_Security.png"
                 />
               </div>
               <div className="self-stretch flex flex-row items-center justify-center gap-[20px] max-w-full mq1650:flex-wrap">
@@ -112,7 +114,7 @@ const Wallet: NextPage = () => {
                   propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
                   propFlex="unset"
                   propMinWidth="unset"
-                  httpslottiefilescomanimat="/bti-logo-11@2x.png"
+                  httpslottiefilescomanimat="/D111_Seamlessness.png"
                 />
                 <Simplicity
                   simplicity="Privacy"
@@ -121,7 +123,7 @@ const Wallet: NextPage = () => {
                   propBackground="linear-gradient(-49.92deg, #f4f4f7, rgba(244, 244, 247, 0))"
                   propFlex="unset"
                   propMinWidth="unset"
-                  httpslottiefilescomanimat="/bti-logo-11@2x.png"
+                  httpslottiefilescomanimat="/D111_Privacy.png"
                 />
               </div>
             </div>

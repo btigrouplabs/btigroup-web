@@ -18,7 +18,7 @@ const BTILogoFooter: NextPage = () => {
             propBackground="radial-gradient(50% 50% at 50% 50%, #b9ffb8, #fff 0.01%, #73f470)"
             propFlex="1"
             propMinWidth="358px"
-            httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+            httpslottiefilescomanimat="/D112-01.png"
           />
           <Simplicity
             simplicity="Instant Confirmations"
@@ -27,7 +27,7 @@ const BTILogoFooter: NextPage = () => {
             propBackground="radial-gradient(50% 50% at 50% 50%, #b9ffb8, #fff 0.01%, #73f470)"
             propFlex="1"
             propMinWidth="358px"
-            httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+            httpslottiefilescomanimat="/D112-02.png"
           />
           <Simplicity
             simplicity="Address Verification"
@@ -36,7 +36,7 @@ const BTILogoFooter: NextPage = () => {
             propBackground="radial-gradient(50% 50% at 50% 50%, #b9ffb8, #fff 0.01%, #73f470)"
             propFlex="1"
             propMinWidth="358px"
-            httpslottiefilescomanimat="/httpslottiefilescomanimationssimpleo3v3elsict@2x.png"
+            httpslottiefilescomanimat="/D112-03.png"
           />
         </div>
       </div>
