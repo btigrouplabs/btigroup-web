@@ -14,9 +14,9 @@ const TermsConditions: NextPage = () => {
           <div className="self-stretch relative leading-[119.3%] mq450:text-xl mq450:leading-[24px]">
             <p className="m-0">
               These terms and conditions applies to the BTI Wallet app (hereby
-              referred to as "Application") for mobile devices that was created
-              by BTI Group OÜ (hereby referred to as "Service Provider") as a
-              Free service.
+              referred to as &quot;Application&quot;) for mobile devices that
+              was created by BTI Group OÜ (hereby referred to as &quot;Service
+              Provider&quot;) as a Free service.
             </p>
             <p className="m-0"></p>
             <p className="m-0">
@@ -51,8 +51,8 @@ const TermsConditions: NextPage = () => {
               removing software restrictions and limitations imposed by the
               official operating system of your device. Such actions could
               expose your phone to malware, viruses, malicious programs,
-              compromise your phone's security features, and may result in the
-              Application not functioning correctly or at all.
+              compromise your phone&rsquo;s security features, and may result in
+              the Application not functioning correctly or at all.
             </p>
             <p className="m-0"></p>
             <p className="m-0">
@@ -78,8 +78,8 @@ const TermsConditions: NextPage = () => {
             <p className="m-0"></p>
             <p className="m-0">
               If you are using the application outside of a Wi-Fi area, please
-              be aware that your mobile network provider's agreement terms still
-              apply. Consequently, you may incur charges from your mobile
+              be aware that your mobile network provider&apos;s agreement terms
+              still apply. Consequently, you may incur charges from your mobile
               provider for data usage during the connection to the application,
               or other third-party charges. By using the application, you accept
               responsibility for any such charges, including roaming data
@@ -99,14 +99,14 @@ const TermsConditions: NextPage = () => {
             </p>
             <p className="m-0"></p>
             <p className="m-0">
-              In terms of the Service Provider's responsibility for your use of
-              the application, it is important to note that while they strive to
-              ensure that it is updated and accurate at all times, they do rely
-              on third parties to provide information to them so that they can
-              make it available to you. The Service Provider accepts no
-              liability for any loss, direct or indirect, that you experience as
-              a result of relying entirely on this functionality of the
-              application.
+              In terms of the Service Provider&apos;s responsibility for your
+              use of the application, it is important to note that while they
+              strive to ensure that it is updated and accurate at all times,
+              they do rely on third parties to provide information to them so
+              that they can make it available to you. The Service Provider
+              accepts no liability for any loss, direct or indirect, that you
+              experience as a result of relying entirely on this functionality
+              of the application.
             </p>
           </div>
         </section>

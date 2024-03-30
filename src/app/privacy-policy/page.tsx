@@ -20,10 +20,10 @@ const PrivacyPolicy: NextPage = () => {
                 <span className="leading-[119.3%]">
                   <span>
                     This privacy policy applies to the BTI Wallet app (hereby
-                    referred to as "Application") for mobile devices that was
-                    created by BTI Group OÜ (hereby referred to as "Service
-                    Provider") as a Free service. This service is intended for
-                    use "AS IS".
+                    referred to as &quot;Application&quot;) for mobile devices
+                    that was created by BTI Group OÜ (hereby referred to as
+                    &quot;Service Provider&quot;) as a Free service. This
+                    service is intended for use &quot;AS IS&quot;.
                   </span>
                 </span>
               </p>
@@ -168,19 +168,20 @@ const PrivacyPolicy: NextPage = () => {
                     encourages all children to never submit any personally
                     identifiable information through the Application and/or
                     Services. The Service Provider encourage parents and legal
-                    guardians to monitor their children's Internet usage and to
-                    help enforce this Policy by instructing their children never
-                    to provide personally identifiable information through the
-                    Application and/or Services without their permission. If you
-                    have reason to believe that a child has provided personally
-                    identifiable information to the Service Provider through the
-                    Application and/or Services, please contact the Service
-                    Provider (contact@btigrouplabs.com) so that they will be
-                    able to take the necessary actions. You must also be at
-                    least 16 years of age to consent to the processing of your
-                    personally identifiable information in your country (in some
-                    countries we may allow your parent or guardian to do so on
-                    your behalf).
+                    guardians to monitor their children&apos;s Internet usage
+                    and to help enforce this Policy by instructing their
+                    children never to provide personally identifiable
+                    information through the Application and/or Services without
+                    their permission. If you have reason to believe that a child
+                    has provided personally identifiable information to the
+                    Service Provider through the Application and/or Services,
+                    please contact the Service Provider
+                    (contact@btigrouplabs.com) so that they will be able to take
+                    the necessary actions. You must also be at least 16 years of
+                    age to consent to the processing of your personally
+                    identifiable information in your country (in some countries
+                    we may allow your parent or guardian to do so on your
+                    behalf).
                   </span>
                 </span>
               </p>
