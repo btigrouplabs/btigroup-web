@@ -10,7 +10,7 @@ const TermsConditions: NextPage = () => {
             Last Updated: April 01, 2024
           </div>
         </section>
-        <section className="w-[1496px] flex flex-col items-center justify-start max-w-full text-justify text-6xl text-black font-roboto-slab">
+        <section className="w-[1496px] flex flex-col items-center justify-start max-w-full text-justify text-6xl font-roboto-slab">
           <div className="self-stretch relative leading-[119.3%] mq450:text-xl mq450:leading-[24px]">
             <p className="m-0">
               These terms and conditions applies to the BTI Wallet app (hereby

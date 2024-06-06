@@ -27,7 +27,7 @@ const Wallet: NextPage = () => {
                 Welcome to BTI Wallet
               </h1>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start max-w-full text-11xl text-black">
+            <div className="self-stretch flex flex-row items-center justify-start max-w-full text-11xl">
               <div className="flex-1 relative leading-[49px] font-light inline-block max-w-full mq450:text-lg mq450:leading-[29px] mq900:text-5xl mq900:leading-[39px]">
                 Your trusted partner in the world of cryptocurrency management.
                 Designed with simplicity and security in mind, our wallet
@@ -89,7 +89,7 @@ const Wallet: NextPage = () => {
                 </h1>
               </div>
             </div>
-            <div className="self-stretch flex flex-col items-center justify-start py-0 px-[54px] box-border gap-[20px] max-w-full text-19xl text-black mq450:gap-[25px_20px] mq900:gap-[50px_20px] mq1300:pl-[27px] mq1300:pr-[27px] mq1300:box-border">
+            <div className="self-stretch flex flex-col items-center justify-start py-0 px-[54px] box-border gap-[20px] max-w-full text-19xl mq450:gap-[25px_20px] mq900:gap-[50px_20px] mq1300:pl-[27px] mq1300:pr-[27px] mq1300:box-border">
               <div className="self-stretch flex flex-row items-center justify-center gap-[20px] max-w-full mq1650:flex-wrap mq1650:justify-center">
                 <Simplicity
                   simplicity="Simplicity"
