@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaMailBulk } from "react-icons/fa";
 import {
   FaGithub,
@@ -140,10 +141,10 @@ export default function Footer() {
               All Rights Reserved
             </div>
             <u className="relative [text-decoration:underline] leading-[30px] font-light">
-              Terms and Conditions
+              <Link href="/terms-conditions">Terms and Conditions</Link>
             </u>
             <u className="relative [text-decoration:underline] leading-[30px] font-light inline-block min-w-[85px]">
-              Privacy Policy
+              <Link href="/privacy-policy">Privacy Policy</Link>
             </u>
           </div>
         </div>
