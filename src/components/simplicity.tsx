@@ -34,7 +34,7 @@ const Simplicity: NextPage<SimplicityType> = ({
 
   return (
     <div
-      className="w-[644px] rounded-14xl [background:linear-gradient(-49.92deg,_#f4f4f7,_rgba(244,_244,_247,_0))] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border flex flex-col items-center justify-start py-[13px] px-[19px] max-w-full text-center text-19xl text-black font-roboto-slab border-[1px] border-solid border-bbb"
+      className="w-[644px] rounded-14xl [background:linear-gradient(-49.92deg,_#f4f4f7,_rgba(244,_244,_247,_0))] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border flex flex-col items-center justify-start py-[13px] px-[19px] max-w-full text-center text-19xl font-roboto-slab border-[1px] border-solid border-bbb"
       style={simplicityStyle}
     >
       <div className="flex flex-row items-center justify-start">

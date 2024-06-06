@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaChevronDown } from "react-icons/fa";
 import {
   FaBars,
@@ -13,15 +14,30 @@ export default function Navbar() {
   return (
     <header className="self-stretch bg-black flex flex-row items-center justify-center py-[11px] px-5 box-border z-[99] fixed w-full text-center text-sm text-light-green font-roboto mq450:pl-2.5 mq450:pr-2.5 mq450:box-border">
       <div className="flex-1 flex flex-row items-center justify-center gap-[20px] max-w-[1240px] mq1050:w-[720px] mq1250:max-w-full">
-        <Image
-          src="/img/bti-group@2x.png"
-          alt="BTI Group OÜ"
-          className="relative object-cover hover:animate-[1s_ease_0s_1_normal_none_pulsate] hover:opacity-[1]"
-          width={160}
-          height={42}
-        />
+        <Link href="/">
+          <Image
+            src="/img/bti-group@2x.png"
+            alt="BTI Group OÜ"
+            className="relative object-cover hover:animate-[1s_ease_0s_1_normal_none_pulsate] hover:opacity-[1]"
+            width={160}
+            height={42}
+          />
+        </Link>
 
         <nav className="m-0 flex-1 flex flex-row items-center justify-between max-w-full gap-[20px] text-center text-sm text-dominant font-roboto mq1050:hidden">
+          <div className="flex flex-row items-center justify-center">
+            <Link
+              className="[text-decoration:none] relative text-[inherit] inline-block min-w-[53px] hover:text-light-green"
+              href="/wallet"
+            >
+              Wallet
+            </Link>
+            <FaChevronDown
+              height={11}
+              width={11}
+              className="relative overflow-hidden shrink-0 hidden"
+            />
+          </div>
           <div className="flex flex-row items-center justify-center">
             <a className="[text-decoration:none] relative text-[inherit] inline-block min-w-[53px] hover:text-light-green">
               Services

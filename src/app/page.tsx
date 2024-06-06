@@ -19,7 +19,7 @@ const HomePage: NextPage = () => {
                 Welcome to BTI Group OÜ
               </h1>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-start max-w-full text-11xl text-black">
+            <div className="self-stretch flex flex-row items-center justify-start max-w-full text-11xl">
               <div className="flex-1 relative leading-[49px] font-light inline-block max-w-full mq450:text-lg mq450:leading-[29px] mq900:text-5xl mq900:leading-[39px]">
                 BTI Group OU is a company in the blockchain and Web3 space. Our
                 flagship project, BBAChain, exemplifies our commitment to

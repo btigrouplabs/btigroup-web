@@ -13,7 +13,7 @@ const PrivacyPolicy: NextPage = () => {
             Last Updated: April 01, 2024
           </div>
         </section>
-        <section className="w-[1496px] flex flex-col items-center justify-start max-w-full text-justify text-6xl text-black font-roboto-slab">
+        <section className="w-[1496px] flex flex-col items-center justify-start max-w-full text-justify text-6xl font-roboto-slab">
           <div className="self-stretch flex-1 relative flex items-center mq450:text-xl">
             <span>
               <p className="m-0">
