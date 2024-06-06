@@ -17,9 +17,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="w-full relative bg-black overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] mq750:items-center mq750:justify-start">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
