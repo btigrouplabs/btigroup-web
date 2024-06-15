@@ -1,12 +1,18 @@
+import "./globals.css";
+
+import { ThemeProvider } from "@/contexts/theme-provider";
+import { cn } from "@/lib/utils";
+import { Inter as FontSans } from "next/font/google";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./global.css";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
-  title: "BTI Group",
-  description: "BTI Group - Official Website",
+  title: "BTI Account",
+  description: "BTI Account",
 };
 
 export default function RootLayout({
@@ -15,13 +21,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        <div className="w-full relative bg-black overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal] mq750:items-center mq750:justify-start">
-          <Navbar />
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable
+        )}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
-          <Footer />
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   );
