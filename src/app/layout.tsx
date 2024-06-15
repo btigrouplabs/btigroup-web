@@ -4,6 +4,8 @@ import { ThemeProvider } from "@/contexts/theme-provider";
 import { cn } from "@/lib/utils";
 import { Inter as FontSans } from "next/font/google";
 import type { Metadata } from "next";
+import Navbar from "./ui/layout/Navbar";
+import Footer from "./ui/layout/Footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -34,7 +36,12 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <Navbar />
+          <main className="bg-white dark:bg-black space-y-6">
+            {/* Children */}
+            {children}
+          </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

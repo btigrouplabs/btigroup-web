@@ -1,3 +1,4 @@
+import { signOutAction } from "@/app/lib/actions/auth-actions";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
@@ -10,7 +11,6 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { LogOut, User } from "lucide-react";
 import Link from "next/link";
-import { signOutAction } from "../../data/actions/auth-actions";
 
 export function ProfileButton() {
   return (

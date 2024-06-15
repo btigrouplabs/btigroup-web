@@ -1,16 +1,12 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 import { useState } from "react";
 import { AppLogo } from "../navbar/app-logo";
 import { ModeToggle } from "../navbar/mode-toggle";
 import { ProfileButton } from "../navbar/profile-button";
-import { Button } from "@/components/ui/button";
-
-interface INavbar {
-  user: IUser | null;
-}
 
 const menuItems = [
   { href: "/features", label: "Features" },
@@ -18,7 +14,7 @@ const menuItems = [
   { href: "/about-us", label: "About Us" },
 ];
 
-export default function Navbar({ user }: INavbar) {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (

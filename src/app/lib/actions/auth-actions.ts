@@ -1,9 +1,9 @@
 "use server";
 
-import axiosInstance from "@/app/data/axios";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
+import axiosInstance from "../axios";
 
 const config = {
   httpOnly: true,

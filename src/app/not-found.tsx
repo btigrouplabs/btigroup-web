@@ -1,4 +1,4 @@
-import imgNotFound from "@/components/vectors/not-found.svg";
+import imgNotFound from "@/components/img/not-found.svg";
 import Image from "next/image";
 import Link from "next/link";
 
