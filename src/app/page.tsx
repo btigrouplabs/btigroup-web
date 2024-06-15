@@ -1,11 +1,6 @@
-"use client";
 import Image from "next/image";
-import type { NextPage } from "next";
-import { useRouter } from "next/navigation";
 
-const HomePage: NextPage = () => {
-  const router = useRouter();
-
+export default function Home() {
   return (
     <div className="w-full relative bg-white-background box-border overflow-hidden flex flex-col items-start justify-start tracking-[normal] border-[1px] border-solid border-black">
       <section
@@ -38,13 +33,11 @@ const HomePage: NextPage = () => {
               alt=""
               height={457.7}
               width={229.8}
-              src="/group-6@2x.png"
+              src="/img/group-6@2x.png"
             />
           </div>
         </div>
       </section>
     </div>
   );
-};
-
-export default HomePage;
+}
