@@ -1,8 +1,8 @@
-import axiosInstance from "../axios";
+import axiosInstance from "@/lib/axios";
 
 export async function getProfile() {
   try {
-    const { data } = await axiosInstance.get<IUser>("/api/auth/profile");
+    const { data } = await axiosInstance.get("/api/auth/profile");
     return {
       ok: true,
       data,
