@@ -1,6 +1,15 @@
+import { signIn } from "@/auth";
 import { Button } from "@/components/ui/button";
-import { redirect } from "next/navigation";
 
 export function SignInButton() {
-  return <Button onClick={() => redirect("/auth/signin")}>Sign In</Button>;
+  return (
+    <form
+      action={async () => {
+        "use server";
+        await signIn("keycloak");
+      }}
+    >
+      <Button type="submit">Sign In</Button>
+    </form>
+  );
 }

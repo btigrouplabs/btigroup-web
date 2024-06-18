@@ -1,12 +1,9 @@
-"use client";
-
-import { Button } from "@/components/ui/button";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { auth } from "@/auth";
 import Link from "next/link";
-import { useState } from "react";
 import { AppLogo } from "../navbar/app-logo";
 import { ModeToggle } from "../navbar/mode-toggle";
 import { ProfileButton } from "../navbar/profile-button";
+import { SignInButton } from "../navbar/signin-button";
 
 const menuItems = [
   { href: "/features", label: "Features" },
@@ -14,8 +11,8 @@ const menuItems = [
   { href: "/about-us", label: "About Us" },
 ];
 
-export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+export default async function Navbar() {
+  const session = await auth();
 
   return (
     <div className="bg-white dark:bg-black">
@@ -37,14 +34,12 @@ export default function Navbar() {
             </ul>
           </div>
           <ul className="items-center justify-center hidden space-x-5 lg:flex">
-            <li>
-              <ProfileButton />
-            </li>
+            <li>{session?.user ? <ProfileButton /> : <SignInButton />}</li>
             <li>
               <ModeToggle />
             </li>
           </ul>
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden">
             <Button
               size="icon"
               variant="outline"
@@ -84,7 +79,7 @@ export default function Navbar() {
                         </li>
                       ))}
                       <li className="items-center justify-center w-full">
-                        <ProfileButton />
+                        <SignInButton />
                       </li>
                       <li className="items-center justify-center w-full">
                         <ModeToggle />
@@ -94,7 +89,7 @@ export default function Navbar() {
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
